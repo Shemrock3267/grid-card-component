@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-flow: column wrap;
+  max-width: 700px;
+  background-color: linear-gradient(45deg, #010101, darkgrey);
+  margin: 0 auto;
+  color: #fff;
+}
