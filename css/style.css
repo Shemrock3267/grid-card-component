@@ -8,7 +8,14 @@ body {
   display: flex;
   flex-flow: column wrap;
   max-width: 700px;
-  background-color: linear-gradient(45deg, #010101, darkgrey);
+  width: 90%;
+  
   margin: 0 auto;
   color: #fff;
+}
+
+.card {
+  background: linear-gradient(45deg, #010101, darkgrey);
+  display: grid;
+  grid-template: 0px auto 80px 40px auto 80px auto 0px / 200px 200px;
 }
